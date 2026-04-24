@@ -78,4 +78,42 @@ across transaction types.
 
 ---
 
-## 📁 Project Structure
+## 💡 Key Insights
+
+- **Credit card fraud** peaks during specific transaction hours, with Food and
+  Clothing as the highest-risk merchant categories.
+- **E-commerce suspicious activity** accounts for nearly **1 in 5 customers**,
+  with irregular payment patterns as a key signal.
+- **User-level fraud** is concentrated in **PAYMENT and CASH_OUT** transaction
+  types, with large balance drains as a reliable fraud indicator.
+- Combining all three datasets reveals cross-domain fraud patterns that
+  individual dashboards cannot capture alone.
+
+---
+
+## 🚀 How to Use
+
+1. Clone or download this repository
+2. Open `.pbix` files in **Power BI Desktop**
+3. Connect to the datasets in the `/datasets` folder if prompted
+4. Use the slicers (High Risk / Low Risk, Normal / Suspicious) to filter views
+5. Navigate between report pages to explore each fraud domain
+
+---
+
+## 👩‍💻 Author
+
+**Sanika**
+BCA Student | Data Analyst | Creative Designer
+
+---
+
+## 📌 Note
+
+This project was built for analytical and academic purposes using
+synthetic/publicly available datasets. All insights are exploratory
+and not intended for production fraud detection systems.
+
+
+
+
